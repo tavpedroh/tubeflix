@@ -1,0 +1,44 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 40px 30px;
+    border-bottom: blue solid 2px;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 255, 0.6);
+}
+
+.header img{
+    height: 40px;
+    width: 168px;
+}
+
+.header div{
+    
+    
+}
+
+.header button{
+    font-family: 'Source Code Pro';
+    font-size: 20px;
+    border-radius: 7px;
+    border-style: solid;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.home{
+    padding: 5px 40px;
+    background-color: #191919;
+    color: #2962ff;
+    border-color: #2962ff;
+
+}
+
+.novoVideo{
+    padding: 5px 5px;
+    background-color: #191919;
+    color: #fff;
+    border-color: #fff;
+}

@@ -1,0 +1,20 @@
+
+.footer{
+    position: absolute ;
+    left: 0;
+    bottom: 0;
+    
+    width: 100%;
+    padding: 30px 0;
+
+    text-align: center;
+    background-color: black;
+
+    border-top: solid 3px #2962ff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 255, 0.87);
+}
+
+.footer img{
+    height: 40px;
+    width: 168px;
+}

@@ -1,0 +1,20 @@
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 200px 0 50px 0;
+    background-color: gray;
+    border-bottom: #2962ff 2px;
+    box-shadow: 0 0 10px 4px #2962ff;
+}
+
+
+
+.banner iframe{
+    height: 343px;
+    width: 646px;
+    border-radius: 10px;
+    border: #2962ff solid 3px;
+}
