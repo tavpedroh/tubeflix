@@ -1,0 +1,36 @@
+.formulario-container{
+    background-color: #191919;
+    color: #fff;
+    width: 100%;
+    height: 800px;
+}
+
+.formulario{
+    
+    display: flex;
+    justify-self: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+.formulario section{
+    text-align: center;
+   
+}
+
+
+.formulario div{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario h2{
+    padding-right: 500px;
+    
+    border-top: 2px grey solid;
+    border-bottom: 2px grey solid;
+}

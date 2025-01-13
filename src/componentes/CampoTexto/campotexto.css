@@ -1,0 +1,19 @@
+
+
+.campo-texto{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 5px;
+}
+
+.campo-texto label{
+
+}
+
+.campo-texto input{
+    background-color: #191919;
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 10px 100px 10px 5px;
+}

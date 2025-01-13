@@ -1,0 +1,11 @@
+
+
+.lista-suspensa{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-suspensa select{
+    width: 200px;
+    height: 20px;
+}

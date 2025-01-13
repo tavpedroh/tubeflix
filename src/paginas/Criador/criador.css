@@ -1,0 +1,20 @@
+
+
+/* .criador{
+    background-color: #191919;
+    color: #fff;
+    height: auto; */
+    /* width: auto;
+    display: flex;
+    justify-content: center;
+    
+} */
+
+.criador{
+    display: flex;
+    justify-content: center;
+    
+    
+    align-items: center;
+    
+}
