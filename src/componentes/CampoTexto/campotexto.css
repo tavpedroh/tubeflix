@@ -13,7 +13,9 @@
 
 .campo-texto input{
     background-color: #191919;
+    color: #fff;
     border: solid grey 1px;
     border-radius: 5px;
     padding: 10px 100px 10px 5px;
+    width: 300px;
 }

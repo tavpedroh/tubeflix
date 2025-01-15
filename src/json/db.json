@@ -1,39 +1,37 @@
-[
+{
+  "videos": [
     {
-        "id": 1,
-        "titulo": "",
-        "categoria": "",
-        "imagem": "",
-        "video": "",
-        "descricao": "" 
+      "id": "4080",
+      "title": "POR QUE TRUMP DEVE COMPRAR A GROENLÂNDIA? | Professor HOC",
+      "url": "https://www.youtube.com/embed/6QsyjD2DwGY",
+      "category": "GeoPolítica",
+      "thumbnail": "https://i.ytimg.com/an_webp/6QsyjD2DwGY/mqdefault_6s.webp?du=3000&sqp=CIrCmrwG&rs=AOn4CLASulo9Rpb0nUy7i82ngnkcvL3rEg"
     },
-
     {
-        "id": 2,
-        "titulo": "",
-        "categoria": "",
-        "imagem": "",
-        "video": "",
-        "descricao": "" 
+      "id": "5735",
+      "title": "Essas Coisas Vão Acontecer ATÉ 2100",
+      "url": "https://www.youtube.com/embed/ZoCb9XEcO0o",
+      "category": "História",
+      "thumbnail": "https://i.ytimg.com/an_webp/ZoCb9XEcO0o/mqdefault_6s.webp?du=3000&sqp=COLGmrwG&rs=AOn4CLDnjAiYpQonm3DACfjnEROLscfOHw"
     },
-
     {
-        "id": 3,
-        "titulo": "",
-        "categoria": "",
-        "imagem": "",
-        "video": "",
-        "descricao": ""
+      "id": "73be",
+      "title": "por que NIETZSCHE ODEIA SÓCRATES?",
+      "url": "https://www.youtube.com/embed/bmm66Tubg2g",
+      "category": "História",
+      "thumbnail": "https://i.ytimg.com/an_webp/bmm66Tubg2g/mqdefault_6s.webp?du=3000&sqp=COjMmrwG&rs=AOn4CLDZH3qezxZctGbvBW1iQ3ELm9FE4A"
     },
-
     {
-        "id": 4,
-        "titulo": "",
-        "categoria": "",
-        "imagem": "",
-        "video": "",
-        "descricao": "" 
+      "id": "96f6",
+      "title": "Assista quando estiver cansado da vida | A filosofia de Sartre",
+      "url": "https://www.youtube.com/embed/2YtBZaqe3Mo",
+      "category": "História",
+      "thumbnail": "https://i.ytimg.com/an_webp/2YtBZaqe3Mo/mqdefault_6s.webp?du=3000&sqp=CKzLmrwG&rs=AOn4CLCU650KAD_wMHBVFEOhNWVydZTJ5Q"
     }
-
-
-]
+  ],
+  "categorias": [
+    "História",
+    "Geografia",
+    "GeoPolítica"
+  ]
+}

@@ -3,9 +3,14 @@
 .lista-suspensa{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .lista-suspensa select{
-    width: 200px;
-    height: 20px;
+    padding: 5px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #191919;
+    color: #fff;
 }

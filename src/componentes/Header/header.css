@@ -6,7 +6,8 @@
     background-color: #191919;
     padding: 40px 30px;
     border-bottom: blue solid 2px;
-    box-shadow: 0 0 10px 4px rgba(0, 0, 255, 0.6);
+    box-shadow: 0 0 10px 4px rgba(0, 0, 255, 0.87);
+    
 }
 
 .header img{

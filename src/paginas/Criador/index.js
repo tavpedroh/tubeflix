@@ -1,27 +1,32 @@
-import { useState } from 'react';
+
 import Formulario from '../../componentes/Formulario';
 import './criador.css';
 
-const Criador = ({categorias}) => {
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 
+const Criador = () => {
 
-    const inicial = [
-        {
-            titulo: 'JULIANA AMOASEI',
-            
-            imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
-            categoria: categorias[0].nome
-        }
-    ]
+  
 
 
-    const[cards, setCards] = useState([inicial]);
-
+    const [categorias, setCategorias] = useState([]);
+    
+    useEffect(() => {
+        axios
+          .get("http://localhost:3000/categorias")
+          .then((response) => {
+            setCategorias(response.data); 
+          })
+          .catch((error) => {
+            console.error("Erro ao carregar categorias:", error);
+          });
+      }, []);
 
     return(
         <div className='criador'>
-            <Formulario categorias={categorias.map(categoria => categoria.nome)} aoCadastrar={card => setCards([...cards, card])}/>
+            <Formulario categorias={categorias} />
         </div>
     );
 }

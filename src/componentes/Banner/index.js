@@ -1,21 +1,55 @@
+
+import Categoria from '../Categoria';
+
 import './banner.css';
 
-const Banner = (imagem) => {
+import React, { useState } from 'react';
+
+const Banner = ( ) => {
+
+    
+
+    const video = {
+        id: 1,
+        title: "「AMV」Welcome To The Mato - Marco Brasil Filho",
+        description: "Anime Thumb: Isekai Nonbiri Nouka",
+        url: "https://www.youtube.com/embed/D2QvK-7PO5g",
+        category: "Música",
+        thumbnail: "https://i.ytimg.com/vi/D2QvK-7PO5g/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAAT4cWyAXe8WIMfZcFHsE82KXPbg",
+      };
+
+      const Categorias = Categoria[video.category];
+
     return(
-        <section className='banner' style={{backgroundImage: imagem}}>
-            <div>
-                <h1>Categoria</h1>
-                <h1>Titulo</h1> 
-                <p>Descricao</p>
-            </div>
-            <iframe 
-                width="100%" height="72%" src="https://www.youtube.com/embed/3rKX9CfxwXA"
-                title="titulo" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+        <div 
+                className="banner-background" 
+                style={{ backgroundImage: `url(${video.thumbnail})` }}
             >
-            </iframe>
-        </section>
+        <div className="banner-container">
+            <div className="banner-content">
+                <span 
+                    className="banner-category" 
+                    style={{ backgroundColor: Categorias }} 
+                    >
+                    {video.category}
+                </span>
+                <h1 className="banner-title">{video.title}</h1>
+                <p className="banner-description">{video.description}</p>  
+            </div>
+            <iframe
+                src={video.url}
+                title="Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="banner-iframe"
+            />
+            
+            
+           
+            
+            </div>
+        </div>
     );
 }
 

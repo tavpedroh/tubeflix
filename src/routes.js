@@ -7,26 +7,12 @@ import Header from './componentes/Header';
 import Footer from './componentes/Footer';
 
 function AppRoutes() {
-
-    const categorias = [
-        {
-            nome: "Comedia"
-        },
-        {
-            nome: "Ficção"
-        },
-        {
-            nome: "Infantil"
-        }
-    ]
-
-
     return(
         <BrowserRouter>
             <Header/>
             <Routes>
-                <Route index element={<Inicio categorias={categorias}/>} />
-                <Route path='novovideo' element={<Criador categorias={categorias} />}  />
+                <Route index element={<Inicio/>} />
+                <Route path='novovideo' element={<Criador/>}  />
             </Routes>
             <Footer />
         </BrowserRouter>

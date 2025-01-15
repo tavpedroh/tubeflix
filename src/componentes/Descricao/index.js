@@ -1,29 +1,21 @@
-import './campotexto.css';
+import './descricao.css';
 
 import React from "react";
 
-const CampoTexto = ({ 
-        label, 
-        placeholder, 
-        valor, 
-        aoAlterado, 
-        obrigatorio = false, 
-        corDeFundo 
-    }) => {
+const Descricao = ({ label, placeholder, valor, aoAlterado, obrigatorio = false, corDeFundo }) => {
     const css = {backgroundColor: corDeFundo };
     
     return(
-        <div className='campo-texto' >
+        <div className='descricao'>
             <label>{label}</label>
-            <input 
-                type = "text"
+            <textarea 
+                style={css}
                 value={valor} 
                 placeholder={placeholder} 
                 onChange={evento => aoAlterado(evento.target.value)} 
                 required={obrigatorio}  
-                style={css}
             />
         </div>);
 }
 
-export default CampoTexto;
+export default Descricao;

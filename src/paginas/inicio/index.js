@@ -1,21 +1,20 @@
 import './inicio.css';
 
-
 import Banner from '../../componentes/Banner';
-import Categoria from '../../componentes/Categoria';
-import Card from '../../componentes/Card';
+import HomePage from '../../componentes/HomePage';
 
 
-const Inicio = ({categorias}) => {
+
+
+const Inicio = () => {
 
     
 
     return(
-        <div>
-            <Banner />   
-            <section className="categorias">
-                {categorias.map((categoria, indice) => <Categoria key={indice} categoria={categoria} />)}
-            </section>
+        <div className='inicio'>
+            
+            <HomePage />
+            
         </div>
     );
 }
