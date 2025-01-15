@@ -1,15 +1,15 @@
 .banner-container {
     display: flex;
-    align-items:flex-end ;
+    align-items:center ;
     justify-content: space-around;
-    /* padding-bottom: 50px; */
     position: relative;
     width: 100%;
     height: 600px;
     border-radius: 8px;
     overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 50px;
     
-    bottom: 20px;
   }
   
   .banner-background {
@@ -24,18 +24,24 @@
   
   .banner-content {
     color: #fff;
-    background: rgba(0, 0, 0, 0.6);
+    
     padding: 20px;
     border-radius: 8px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   
   .banner-category {
-    font-size: 14px;
+    font-size: 36px;
     font-weight: bold;
     background: #3498db;
     padding: 4px 8px;
     border-radius: 4px;
     display: inline-block;
+    max-width: 150px;
+    text-align: center;
   }
   
   .banner-title {
@@ -47,6 +53,7 @@
   .banner-description {
     font-size: 16px;
     margin-bottom: 10px;
+    max-width: 500px;
   }
   
   .banner-iframe {

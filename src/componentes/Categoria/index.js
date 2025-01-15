@@ -1,10 +1,10 @@
 import './categoria.css';
 
 const Categoria = { 
-    "História": "#3498db", // Azul
-    "Geografia": "#e74c3c", // Vermelho
-    "GeoPolítica": "#9b59b6", // Roxo
-    "Música": "#bdc3c7"
+    "História": "#5f9ea0", // Azul
+    "Geografia": "#8b0000", // Vermelho
+    "GeoPolítica": "#483d8b", // Roxo
+    "Música": "#daa520" // Gold
 }
 
 export default Categoria;

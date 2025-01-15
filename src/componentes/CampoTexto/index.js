@@ -6,23 +6,26 @@ const CampoTexto = ({
         label, 
         placeholder, 
         valor, 
-        aoAlterado, 
+        onChange, 
         obrigatorio = false, 
-        corDeFundo 
+        corDeFundo, 
+        nome
     }) => {
     const css = {backgroundColor: corDeFundo };
     
     return(
         <div className='campo-texto' >
-            <label>{label}</label>
+            <label htmlFor={nome}>{label}</label>
             <input 
+                id={nome}
                 type = "text"
                 value={valor} 
                 placeholder={placeholder} 
-                onChange={evento => aoAlterado(evento.target.value)} 
+                onChange={(e) => onChange(e.target.value)} 
                 required={obrigatorio}  
                 style={css}
-            />
+                name={nome}
+            ></input>
         </div>);
 }
 

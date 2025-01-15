@@ -9,14 +9,14 @@ const Edit = ({ video, onDelete, onEdit, categorias }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleDelete = () => {
-    axios.delete(`http://localhost:3000/videos/${video.id}`).then(() => {
+    axios.delete(`http://localhost:3001/videos/${video.id}`).then(() => {
       onDelete(video.id);
     });
   };
 
   const handleEdit = (updatedVideo) => {
     axios
-      .put(`http://localhost:3000/videos/${video.id}`, updatedVideo)
+      .put(`http://localhost:3001/videos/${video.id}`, updatedVideo)
       .then((response) => {
         onEdit(response.data); // Atualiza os dados na interface
         setIsModalOpen(false);

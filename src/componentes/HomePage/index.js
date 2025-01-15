@@ -12,13 +12,32 @@ import Edit from '../Edit';
 
 
 const HomePage = () => {
+    
     const [videos, setVideos] = useState([]);
+    const [categories, setCategories] = useState([]);
+
 
     useEffect(() => {
-        axios.get("http://localhost:3000/videos").then((response) => {
+      axios.get("http://localhost:3001/videos")
+        .then((response) => {
           setVideos(response.data);
+        })
+        .catch((error) => {
+          console.error("Erro ao carregar vídeos:", error);
         });
-      }, []);
+    }, []);
+    
+    useEffect(() => {
+      axios.get("http://localhost:3001/categories")
+        .then((response) => {
+          setCategories(response.data);
+        })
+        .catch((error) => {
+          console.error("Erro ao carregar categorias:", error);
+        });
+    }, []);
+
+
 
 
 
@@ -34,16 +53,14 @@ const HomePage = () => {
         );
       };
   
-      const getVideosByCategory = () => {
-        const categories = {};
-        videos.forEach((video) => {
-          if (!categories[video.category]) {
-            categories[video.category] = [];
-          }
-          categories[video.category].push(video);
-        });
-        return categories;
-      };
+      const getVideosByCategory = () =>
+        videos.reduce((categories, video) => {
+          const categoryKey = video.category || "Sem Categoria";
+          categories[categoryKey] = categories[categoryKey] || [];
+          categories[categoryKey].push(video);
+          return categories;
+        }, {});
+      
 
       const categorizedVideos = getVideosByCategory();
 
@@ -107,11 +124,11 @@ const HomePage = () => {
                       video={video}
                       onDelete={handleDelete}
                       onEdit={handleEdit} 
-                      categorias={[
-                        "História",
-                        "Geografia",
-                        "GeoPolítica"
-                      ]}
+
+                      // isOpen={isModalOpen}
+                      // onClose={closeModal}
+                      // onSubmit={handleEdit}
+                      categorias={categories}
                     />
                   </div>
                 ))}

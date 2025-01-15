@@ -2,7 +2,15 @@ import './listasuspensa.css';
 
 import React from "react";
 
-const ListaSupensa = ({ label, itens = [],  valor, aoAlterado, obrigatorio = false, corDeFundo }) => {
+const ListaSupensa = ({ 
+        label, 
+        valor, 
+        onChange, 
+        obrigatorio = false, 
+        corDeFundo,
+        categorias  = [],
+        valorInicial
+    }) => {
     const css = {backgroundColor: corDeFundo };
     
     return(
@@ -11,13 +19,16 @@ const ListaSupensa = ({ label, itens = [],  valor, aoAlterado, obrigatorio = fal
             <select 
                 style={css}
                 required={obrigatorio} 
-                value = {valor} 
-                onChange={(evento) => aoAlterado(evento.target.value)} 
+                value = {valorInicial} 
+                onChange={(e) => onChange(e.target.value)} 
+                
             >
-                <option value="">Selecione uma categoria</option>
-                {itens.map((item, index) => (
-                    <option key={index} value={item}>
-                        {item}
+                <option value="">
+                    Selecione uma categoria
+                </option>
+                {categorias.map((categoria, index) => (
+                    <option key={index} value={categoria}>
+                        {categoria}
                     </option>
                 ))}
             </select>
