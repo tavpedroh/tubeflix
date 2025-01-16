@@ -5,11 +5,12 @@
     position: relative;
     width: 100%;
     height: 600px;
-    border-radius: 8px;
+    
     overflow: hidden;
     background: rgba(0, 0, 0, 0.6);
     padding-top: 50px;
-    
+    border-bottom: #0000ff 2px solid ;
+    box-shadow: 0 0 10px 4px hsla(240, 100%, 50%, 0.87);
   }
   
   .banner-background {
@@ -59,7 +60,8 @@
   .banner-iframe {
     width: 646px;
     height: 333px;
-    border: solid 4px #3498db;
-    box-shadow: 2px 4px 8px #3498db;
+    border: solid 4px #5f9ea0;
+    box-shadow: 2px 4px 8px #5f9ea0;
+    border-radius: 10px;
   }
   

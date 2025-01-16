@@ -3,11 +3,10 @@ import './homepage.css';
 import Card from '../../componentes/Card';
 import Categoria from '../../componentes/Categoria';
 import Banner from '../Banner';
+import Edit from '../Edit';
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
-import Edit from '../Edit';
 
 
 
@@ -15,7 +14,6 @@ const HomePage = () => {
     
     const [videos, setVideos] = useState([]);
     const [categories, setCategories] = useState([]);
-
 
     useEffect(() => {
       axios.get("http://localhost:3001/videos")
@@ -37,10 +35,6 @@ const HomePage = () => {
         });
     }, []);
 
-
-
-
-
       const handleDelete = (id) => {
         setVideos(videos.filter((video) => video.id !== id));
       };
@@ -61,21 +55,20 @@ const HomePage = () => {
           return categories;
         }, {});
       
-
       const categorizedVideos = getVideosByCategory();
 
-      return (
-        
-        
+      return (                
         <div className='homepage'>
           <Banner />
-             
+          <div
+            style={{padding: "50px 0"}}
+          >   
           {Object.keys(categorizedVideos).map((category) => (
             <div 
               key={category} 
               style={{ 
                 paddingBottom: "40px",
-                paddingLeft: "16px",
+                paddingLeft: "40px",
                 backgroundColor: "#191919",
                 
               }}
@@ -110,8 +103,7 @@ const HomePage = () => {
                     style={{
                       border: `2px solid ${Categoria[category] || "#ddd"}`,
                       padding: "16px",
-                      width: "300px",
-      
+                      width: "300px",      
                     }}
                   >
                     <h3>{video.title}</h3>
@@ -123,18 +115,14 @@ const HomePage = () => {
                     <Edit 
                       video={video}
                       onDelete={handleDelete}
-                      onEdit={handleEdit} 
-
-                      // isOpen={isModalOpen}
-                      // onClose={closeModal}
-                      // onSubmit={handleEdit}
+                      onEdit={handleEdit}   
                       categorias={categories}
                     />
                   </div>
                 ))}
               </div>
             </div>
-          ))}
+          ))} </div>
         </div>
         );
 }

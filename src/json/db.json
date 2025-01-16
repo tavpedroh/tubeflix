@@ -2,7 +2,7 @@
   "videos": [
     {
       "title": "POR QUE TRUMP DEVE COMPRAR A GROENLÂNDIA? | Professor HOC",
-      "category": "GeoPolítica",
+      "category": "Geopolítica",
       "thumbnail": "https://img.youtube.com/vi/6QsyjD2DwGY/0.jpg",
       "url": "https://www.youtube.com/embed/6QsyjD2DwGY",
       "description": "No vídeo de hoje, eu vou falar sobre a polêmica ideia de Donald Trump de incorporar a Groenlândia aos Estados Unidos. Vou te explicar a história por trás dessa tentativa, os motivos geopolíticos que levaram a essa proposta e as diferentes estratégias que poderiam ser usadas para tornar isso possível. ",
@@ -10,11 +10,10 @@
     },
     {
       "title": "Assista quando estiver cansado da vida | A filosofia de Sartre",
-      "category": "História",
+      "category": "Filosofia",
       "thumbnail": "https://img.youtube.com/vi/2YtBZaqe3Mo/0.jpg",
       "url": "https://www.youtube.com/embed/2YtBZaqe3Mo",
       "description": "Já se sentiu cansado de tudo e todos? A filosofia de Sartre pode ajudar. Em 13 minutos, vou provar como o Existencialismo afasta o desnânimo e nos reconecta com a vida.",
-      "description  ": "s",
       "id": "96f6"
     },
     {
@@ -41,11 +40,84 @@
       "url": "https://www.youtube.com/embed/SlaTvq_6ZyE",
       "description": "Explorando mapas, memes e curiosidades fascinantes de história e geografia! Neste vídeo, apresento como os mapas te enganam.",
       "id": "ada0"
+    },
+    {
+      "id": "cd5b",
+      "title": "VOGALIZANDO O CINEMA: ATÉ O ÚLTIMO HOMEM",
+      "description": "Desmond Doss atuou na Batalha de Okinawa durante a Segunda Guerra Mundial sem tocar em nenhuma arma de fogo e mesmo assim recebeu a Medalha de Honra por conta da sua atuação heróica na batalha. A história dele foi contada no filme 'Até o último homem' e vai ser contada no Vogalizando a História de hoje também.",
+      "url": "https://www.youtube.com/embed/uH94XW9NWAM",
+      "category": "História",
+      "thumbnail": "https://img.youtube.com/vi/uH94XW9NWAM/maxresdefault.jpg"
+    },
+    {
+      "id": "c4e2",
+      "title": "Principais TEORIAS a respeito dos incêndios em LOS ANGELES!",
+      "description": "Enquanto Los Angeles arde sob o fogo, os norte-americanos se perguntam até quando isso vai acontecer e, ainda mais, suspeitam fortemente de que, desta vez, a coisa pode ter sido provocada. Teorias da conspiração ou fatos?",
+      "url": "https://www.youtube.com/embed/gddi0N5JlLE",
+      "category": "Geopolítica",
+      "thumbnail": "https://img.youtube.com/vi/gddi0N5JlLE/maxresdefault.jpg"
+    },
+    {
+      "id": "0f2b",
+      "title": "um TOUR pela CAVERNA de PLATÃO",
+      "description": "Um tour pela caverna de Platão\n\nEsse é o Mito da Caverna, um dos mais complexos e profundos temas da filosofia grega.\nIsso porque no cerne da questão está uma das perguntas mais difíceis de ser respondida: O que é a realidade? Como sair da caverna e enxergar o mundo ao seu redor? E quais as lições que podemos aprender com essa alegoria de Platão? Hoje no filosofando.",
+      "url": "https://www.youtube.com/embed/V7gp-ixrWjk",
+      "category": "Filosofia",
+      "thumbnail": "https://img.youtube.com/vi/V7gp-ixrWjk/maxresdefault.jpg"
+    },
+    {
+      "title": "COMO O IRÃ FINANCIA SUA GUERRA? | Professor HOC",
+      "category": "Geopolítica",
+      "thumbnail": "https://img.youtube.com/vi/_FWPPyj6E5o/maxresdefault.jpg",
+      "url": "https://www.youtube.com/embed/_FWPPyj6E5o",
+      "description": "Você já se perguntou como o Irã, mesmo sob fortes sanções econômicas, consegue manter sua máquina de poder funcionando, financiar aliados como o Hezbollah e o Hamas e sustentar suas ambições regionais? Neste vídeo, mergulho nos bastidores dessa complexa geopolítica para explicar como o regime iraniano utiliza o petróleo, redes de aliados e estratégias inovadoras para driblar bloqueios internacionais. Baseado em um relatório detalhado da The Economist e outros dados confiáveis, revelo os mecanismos que tornam isso possível e o impacto disso no equilíbrio de poder global.",
+      "id": "ec33"
+    },
+    {
+      "id": "7e7c",
+      "title": "Toda escolha é a escolha certa | A Filosofia de Kierkegaard",
+      "description": "Como tomar decisões? Nesse vídeo sobre escolhas e existencialismo, exploraremos as filosofias de Jean-Paul Sartre e Søren Kierkegaard. Aprenda a escolher com confiança, de forma consciente, sem arrependimento - na vida e no vestibular.",
+      "url": "https://www.youtube.com/embed/czfbY18UPqU",
+      "category": "Filosofia",
+      "thumbnail": "https://img.youtube.com/vi/czfbY18UPqU/maxresdefault.jpg"
+    },
+    {
+      "title": "por que NIETZSCHE ODEIA SÓCRATES?",
+      "category": "Filosofia",
+      "thumbnail": "https://img.youtube.com/vi/bmm66Tubg2g/maxresdefault.jpg",
+      "url": "https://youtube.com/embed/bmm66Tubg2g",
+      "description": "Por que Nietzsche odiava Sócrates?\nDe um lado nós temos Sócrates, o maior filósofo da Antiguidade.\nDo outro lado nós temos Friedrich Nietzsche, o maior filósofo da Modernidade. Mas uma coisa que talvez você não saiba é que se os dois estivessem vivos na mesma época, possivelmente eles se ODIARIAM.\nMas quais são os pontos que diferenciam a filosofia dos dois? Quais as contradições no pensamento de cada um? Por que Nietzsche odeia Sócrates? Hoje, no filosofando.",
+      "id": "1dcc"
+    },
+    {
+      "id": "f0fb",
+      "title": "O FUTURO DA RELAÇÃO CHINA E RÚSSIA | Professor HOC",
+      "description": "A relação entre Rússia e China está mais forte do que nunca, mas será que isso significa uma parceria inabalável? No vídeo de hoje, analiso os cinco pilares que sustentam o eixo Pequim-Moscou: geopolítica, economia, ideologia, liderança e instituições. Vamos comparar a aliança atual com o famoso alinhamento sino-soviético da Guerra Fria e discutir se essa parceria tem chances de desmoronar. Será que o Ocidente pode usar a mesma estratégia dos anos 1970 para tentar enfraquecer essa relação?",
+      "url": "https://youtube.com/embed/9PxoMasMuyM",
+      "category": "Geopolítica",
+      "thumbnail": "https://img.youtube.com/vi/9PxoMasMuyM/maxresdefault.jpg"
+    },
+    {
+      "id": "7044",
+      "title": "tudo sobre as ELEIÇÕES AMERICANAS",
+      "description": "tudo sobre as ELEIÇÕES AMERICANAS\nNo dia 5 de novembro de 2024, acontecerão as eleições presidenciais nos Estados Unidos e o mundo inteiro está de olho. Isso porque, o resultado dessa votação muda os rumos do nosso planeta.\nTalvez você esteja acompanhando essas eleições, mas você sabe como elas funcionam? Nos Estados Unidos não tem uma urna eletrônica igual no Brasil, a escolha do presidente acontece de outra forma. Mas como? Como as eleições americanas acontecem e o que ela pode impactar?",
+      "url": "https://youtube.com/embed/aznqtmuQ6EQ",
+      "category": "Geopolítica",
+      "thumbnail": "https://img.youtube.com/vi/aznqtmuQ6EQ/maxresdefault.jpg"
+    },
+    {
+      "id": "9903",
+      "title": "como ROMA CRESCEU TANTO?",
+      "description": "Como Roma cresceu tanto?\nQuando nós falamos sobre Impérios, qual o principal nome que vem na sua mente? É inevitável, todo mundo pensa em Roma. Com seus milhares de quilômetros de extensão, o Império Romano é, sem sombra de dúvidas, um dos maiores feitos da história da humanidade. Mas como Roma conseguiu ficar tão poderosa? Qual era a estratégia e o objetivo por trás de tudo isso? Como uma cidade no litoral da atual Itália dominou o ocidente por mais de 500 anos? Hoje, no investigando - Atlas.",
+      "url": "https://youtube.com/embed/4TeJ55Ijy8U",
+      "category": "Geografia",
+      "thumbnail": "https://img.youtube.com/vi/4TeJ55Ijy8U/maxresdefault.jpg"
     }
   ],
   "categories": [
+    "Filosofia",
     "Geografia",
-    "GeoPolítica",
+    "Geopolítica",
     "História"
   ]
 }

@@ -1,4 +1,4 @@
-import Modal from '../Modal';
+
 import './card.css';
 
 import React, { useState } from "react";

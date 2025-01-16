@@ -116,7 +116,7 @@ const Formulario = () => {
                     <Descricao obrigatorio={true}
                         label="Descrição"
                         placeholder="Sobre o que é esse vídeo?"
-                        valor={formData.descricao}  
+                        valor={formData.description}  
                         onChange={(value) => handleChange("description", value)}/>
                 <div>
                     <button
