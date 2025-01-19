@@ -14,7 +14,7 @@ const Formulario = () => {
     const [categorias, setCategories] = useState([]);
       
     useEffect(() => {
-      axios.get("http://localhost:3001/categories")
+      axios.get("https://my-json-server.typicode.com/tavpedroh/teste-db/categories")
         .then((response) => {
           setCategories(response.data);
         })
@@ -50,7 +50,7 @@ const Formulario = () => {
         }
 
         axios
-          .post("http://localhost:3001/videos", formData)
+          .post("https://my-json-server.typicode.com/tavpedroh/teste-db/videos", formData)
           .then(() => {
             alert("Vídeo criado com sucesso!");
             setFormData({

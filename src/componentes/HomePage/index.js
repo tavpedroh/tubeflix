@@ -16,7 +16,7 @@ const HomePage = () => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-      axios.get("http://localhost:3001/videos")
+      axios.get("https://my-json-server.typicode.com/tavpedroh/teste-db/videos")
         .then((response) => {
           setVideos(response.data);
         })
@@ -26,7 +26,7 @@ const HomePage = () => {
     }, []);
     
     useEffect(() => {
-      axios.get("http://localhost:3001/categories")
+      axios.get("https://my-json-server.typicode.com/tavpedroh/teste-db/categories")
         .then((response) => {
           setCategories(response.data);
         })

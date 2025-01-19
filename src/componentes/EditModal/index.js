@@ -44,7 +44,7 @@ const EditModal = ({ video, isOpen, onClose, onSubmit, categorias }) => {
     e.preventDefault();
 
     axios
-      .put(`http://localhost:3001/videos/${video.id}`, formData)
+      .put(`https://my-json-server.typicode.com/tavpedroh/teste-db/videos/${video.id}`, formData)
       .then(() => {
         alert("Vídeo editado com sucesso!");
         onSubmit(formData); // Atualiza a lista de vídeos
